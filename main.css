@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Kavivanar);
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+    color: #978c8c;
+    font-family: sans-serif;
+    line-height: 1;
+    padding-top: 30px;
+}
+.header {
+    text-align: center;
+    z-index: 99;
+    padding: 20px;
+}
+.header a {
+    color: #978c8c;
+    text-decoration: none;
+}
+.header h1, .header h3 {
+    font-family: Kavivanar, cursive;
+}
+.header h1 {
+    margin-bottom: 10px;
+    color: #6d6666;
+    font-size: 4em;
+}
+.header h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+.content {
+    clear: both;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    padding: 60px 32px 0;
+}
+.item {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 16px 50px;
+}
+.item:hover {
+    cursor: pointer;
+}
+.item:hover .img_holder {
+    border: #ccc;
+    border-style: solid;
+    border-width: 1px;
+}
+.item:hover .title span {
+    border-bottom: #ccc;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.item .img_holder {
+    margin-bottom: 8px;
+    position: relative;
+    overflow: hidden;
+    height: 188px;
+    width: 280px;
+    min-width: 280px;
+    min-height: 188px;
+    border-color: #FFF;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+}
+.item .title {
+    padding-bottom: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    width: 280px;
+}
+.item .title span {
+    font-size: .9em;
+}
