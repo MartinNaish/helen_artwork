@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>Helen Naish - Rebecca</title>
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+</head>
+<body>
+    <header>
+        <a href="http://helennaish.co.uk">
+        <h1>Helen Naish</h1></a>
+        <h3>Illustrator</h3>
+    </header>
+    <div class="content">
+        <div class="detail_item">
+            <div class="detail_title">
+                <span>A series of prints based on the film <emph>Rebecca</emph></span>
+            </div>
+            <div class="img_holder">
+                <img alt="Print 1" src="../images/full/print-1.png">
+            </div>
+            <div class="img_holder">
+                <img alt="Print 2" src="../images/full/print-2.png">
+            </div>
+            <div class="img_holder">
+                <img alt="Print 3" src="../images/full/print-3.png">
+            </div>
+            <div class="img_holder">
+                <img alt="Print 4" src="../images/full/print-4.png">
+            </div>
+            <div class="img_holder">
+                <img alt="Print 5" src="../images/full/print-5.png">
+            </div>
+            <div class="img_holder">
+                <img alt="Print 6" src="../images/full/print-6.png">
+            </div>
+            <div class="img_holder">
+                <img alt="Print 7" src="../images/full/print-7.png">
+            </div>
+            <div class="img_holder">
+                <img alt="Print 8" src="../images/full/print-8.png">
+            </div>
+            <div class="img_holder">
+                <img alt="Print 9" src="../images/full/print-9.png">
+            </div>
+            <div class="img_holder">
+                <img alt="Print 10" src="../images/full/print-10.png">
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; Helen Naish 2016
+    </footer>
+</body>
+</html>
