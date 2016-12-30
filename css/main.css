@@ -97,10 +97,6 @@ header img {
 }
 .detail_item .img_holder {
     overflow: hidden;
-    border-color: #FFF;
-    border-style: solid;
-    border-width: 1px;
-    padding: 2px;
 }
 .detail_item .img_holder img {
     height: 450px;
@@ -109,6 +105,7 @@ header img {
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
+    padding: 0;
 }
 .detail_item .img_gallery li {
     display: inline;
@@ -118,6 +115,9 @@ header img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3em;
+}
+.hidden {
+    display: none;
 }
 footer {
     clear: both;
