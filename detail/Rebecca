@@ -10,44 +10,76 @@
 <body>
     <header>
         <a href="http://helennaish.co.uk">
-        <h1>Helen Naish</h1></a>
-        <h3>Illustrator</h3>
+            <img alt="Helen Naish" src="../images/header/full.png">
+        </a>
     </header>
     <div class="content">
         <div class="detail_item">
             <div class="detail_title">
-                <span>A series of prints based on the film <emph>Rebecca</emph></span>
+                <span>A series of prints based on <i>Rebecca</i>.</span>
             </div>
-            <div class="img_holder">
-                <img alt="Print 1" src="../images/full/print-1.png">
-            </div>
-            <div class="img_holder">
-                <img alt="Print 2" src="../images/full/print-2.png">
-            </div>
-            <div class="img_holder">
-                <img alt="Print 3" src="../images/full/print-3.png">
-            </div>
-            <div class="img_holder">
-                <img alt="Print 4" src="../images/full/print-4.png">
-            </div>
-            <div class="img_holder">
-                <img alt="Print 5" src="../images/full/print-5.png">
-            </div>
-            <div class="img_holder">
-                <img alt="Print 6" src="../images/full/print-6.png">
-            </div>
-            <div class="img_holder">
-                <img alt="Print 7" src="../images/full/print-7.png">
-            </div>
-            <div class="img_holder">
-                <img alt="Print 8" src="../images/full/print-8.png">
-            </div>
-            <div class="img_holder">
-                <img alt="Print 9" src="../images/full/print-9.png">
-            </div>
-            <div class="img_holder">
-                <img alt="Print 10" src="../images/full/print-10.png">
-            </div>
+            <ul class="img_gallery">
+                <li class="img_holder">
+                    <img alt="Manderley print" src="../images/full/print-1.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Manderley text" src="../images/full/text-1.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Manderley's Secrets print" src="../images/full/print-2.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Manderley's Secrets text" src="../images/full/text-2.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Cottage print" src="../images/full/print-3.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Cottage text" src="../images/full/text-3.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Dress print" src="../images/full/print-4.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Dress text" src="../images/full/text-4.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Boat print" src="../images/full/print-5.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Boat text" src="../images/full/text-5.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Body in the Boat print" src="../images/full/print-6.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Body in the Boat text" src="../images/full/text-6.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Spike print" src="../images/full/print-7.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Spike text" src="../images/full/text-7.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Gun in the Cottage print" src="../images/full/print-8.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Gun in the Cottage text" src="../images/full/text-8.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Murder print" src="../images/full/print-9.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Murder text" src="../images/full/text-9.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Fire print" src="../images/full/print-10.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="The Fire text" src="../images/full/text-10.png">
+                </li>
+            </ul>
         </div>
     </div>
     <footer>
