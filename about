@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>Helen Naish</title>
+    <link href="./images/favicon/favicon.png" rel="icon" type="image/png">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    </script>
+</head>
+<body>
+    <header>
+        <a href="http://helennaish.co.uk">
+            <img alt="Helen Naish" src="./images/header/full.png">
+        </a>
+        <br>
+        <span class="links">
+            <a href="mailto:helen.naish@googlemail.com">email</a>
+            <a href="https://www.instagram.com/helennaish/">instagram</a>
+            <a href="https://www.etsy.com/uk/shop/helennaish/">shop</a>
+            <a href="about">about</a>
+        </span>
+    </header>
+    <div class="content">
+        Helen is an illustrator and print artist based out of Newbury, Berkshire.
+    </div>
+    <footer>
+        Copyright &copy; Helen Naish 2016-2018
+    </footer>
+</body>
+</html>
