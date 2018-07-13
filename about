@@ -20,8 +20,10 @@
             <a href="about">about</a>
         </span>
     </header>
-    <div class="content">
-        Helen is an illustrator and print artist based out of Newbury, Berkshire.
+    <div class="content about">
+        <p>Hello!</p>
+        <p>I’m a recent Norwich University of the Arts BA (First Class Hons) Illustration graduate, specialising in relief printmaking. My work focuses on narrative and architecture, linking sites to stories, and reimagining classic literature through printed matter. Having bought an etching press, I now run a small printmaking studio and am open for commissions.</p>
+        <p>My work has been exhibited in the New, NUA, Newest show in East Gallery, Norwich, and can be found for sale online and in some Landmark Trust shops.</p>
     </div>
     <footer>
         Copyright &copy; Helen Naish 2016-2018

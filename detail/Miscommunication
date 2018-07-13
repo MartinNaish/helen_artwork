@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
-    <title>Helen Naish - Chine Colle</title>
+    <title>Helen Naish - Miscommunication</title>
     <link href="../images/favicon/favicon.png" rel="icon" type="image/png">
     <link href="../css/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -22,17 +22,11 @@
     <div class="content">
         <div class="detail_item">
             <div class="detail_title">
-                <span>Illustrations for a short story centred around the protagonist’s bike crash and the breaking of his glasses.</span>
+                <span></span>
             </div>
             <ul class="img_gallery">
                 <li class="img_holder">
-                    <img alt="Chine Colle 1" src="../images/full/chine/chine-colle-1.png">
-                </li>
-                <li class="img_holder">
-                    <img alt="Chine Colle 2" src="../images/full/chine/chine-colle-2.png">
-                </li>
-                <li class="img_holder">
-                    <img alt="Chine Colle 3" src="../images/full/chine/chine-colle-3.png">
+                    <img alt="Miscommunication" src="../images/full/miscommunication/miscommunication.png">
                 </li>
             </ul>
         </div>
