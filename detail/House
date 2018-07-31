@@ -55,7 +55,10 @@
             {
                 currentImage = -1;
             }
-            gallery.scrollLeft = Math.round((currentImage + 1) * holderWidth);
+            gallery.scroll({
+                left: Math.round((currentImage + 1) * holderWidth),
+                behavior: 'smooth'
+            });
         }
 
         document.addEventListener("DOMContentLoaded", setCursor);
