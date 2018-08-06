@@ -109,9 +109,12 @@ header .links a:hover {
 }
 .detail_item .detail_title {
     margin-bottom: 8px;
-    text-align: left;
     margin-left: 25%;
     margin-right: 25%;
+}
+.detail_item .detail_title.multiline
+{
+    text-align: left;
 }
 .detail_item .img_holder {
     overflow: hidden;
