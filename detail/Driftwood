@@ -22,7 +22,7 @@
     </header>
     <div class="content">
         <div class="detail_item">
-            <div class="detail_title">
+            <div class="detail_title multiline">
                 <span>A collaboration with a creative writing student. An amnesiac character cannot recall the past few weeks, and wrongly attributes his depleted household supplies to an intruder.<br>The prints form a response to the idea of memory loss, using representations of driftwood to explore physical change.<br>Each print acts as an increment of time, revealing the character’s experience of drifting through his daily life.</span>
             </div>
             <ul class="img_gallery">
