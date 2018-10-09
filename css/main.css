@@ -111,6 +111,7 @@ header .links a:hover {
     margin-bottom: 8px;
     margin-left: 25%;
     margin-right: 25%;
+    max-height: 1000000px;
 }
 .detail_item .detail_title.multiline
 {
