@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <title>Helen Naish - My House of Secrets</title>
+    <link href="../images/favicon/favicon.png" rel="icon" type="image/png">
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <style>
+        .content {
+            line-height: 0;
+        }
+        .detail_title {
+            line-height: 1.2;
+        }
+        .img_gallery
+        {
+            margin-top: 0;
+        }
+        .img_gallery li:first-child
+        {
+            padding-left: calc((100% - 357px) /2);
+        }
+        .img_gallery li:last-child
+        {
+            padding-right: calc((100% - 362px) /2);
+        }
+        .detail_item .img_holder img {
+            width: 360px;
+            height: inherit;
+        }
+        .house {
+            width: 376px;
+        }
+    </style>
+    <script>
+        function setCursor()
+        {
+            var house = document.getElementsByClassName("house")[0];
+            house.style.cursor = "pointer";
+        }
+
+        function nextImage()
+        {
+            var gallery = document.getElementsByClassName("img_gallery")[0];
+
+            var imgHolder = gallery.children[1];
+            var clientRect = imgHolder.getBoundingClientRect();
+            var holderWidth = clientRect.width;
+
+            var currentScroll = gallery.scrollLeft;
+            var maxScroll = gallery.scrollWidth - gallery.clientWidth;
+            var currentImage = Math.round(currentScroll / holderWidth);
+            if (currentImage === 10)
+            {
+                currentImage = -1;
+            }
+            gallery.scroll({
+                left: Math.round((currentImage + 1) * holderWidth),
+                behavior: 'smooth'
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", setCursor);
+    </script>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <!--<img alt="Helen Naish" src="../images/header/full.png">-->
+            <img alt="Helen Naish" src="../images/header/HelenSignature.jpg">
+        </a>
+        <br>
+        <span class="links">
+            <a href="mailto:helen.naish@googlemail.com">email</a>
+            <a href="https://www.instagram.com/helennaish/">instagram</a>
+            <a href="https://www.etsy.com/uk/shop/helennaish/">shop</a>
+            <a href="../about.html">about</a>
+        </span>
+    </header>
+    <div class="content">
+        <div class="detail_item">
+            <div class="detail_title multiline">
+                <span>
+                    121 years before Daphne du Maurier acquired Menabilly House, an underground chamber was discovered and subsequently resealed. Du Maurier spent her years obsessing over its contents, haunted by what lay below.<br>This book collates excerpts from eight of Daphne du Maurier’s novels to reveal the hidden story.
+                </span>
+            </div>
+            <img class="house" alt="Manderley print" src="../images/full/house/house.png" onclick="javascript:nextImage()">
+            <ul class="img_gallery">
+                <li class="img_holder">
+                    <img alt="Page 1" src="../images/full/house/page-1.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Page 2" src="../images/full/house/page-2.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Page 3" src="../images/full/house/page-3.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Page 4" src="../images/full/house/page-4.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Page 5" src="../images/full/house/page-5.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Page 6" src="../images/full/house/page-6.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Page 7" src="../images/full/house/page-7.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Page 8" src="../images/full/house/page-8.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Page 9" src="../images/full/house/page-9.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Page 10" src="../images/full/house/page-10.png">
+                </li>
+                <li class="img_holder">
+                    <img alt="Page 11" src="../images/full/house/page-11.png">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; Helen Naish 2016-2018
+    </footer>
+</body>
+</html>
